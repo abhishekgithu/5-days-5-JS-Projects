@@ -21,7 +21,8 @@ function bblSort(arr){
     }
     }
     // Print the sorted array
-    console.log("The sorted arrays are : "+arr);
+    console.log("The sorted array is :");
+    console.log(arr);
     }
     
     
