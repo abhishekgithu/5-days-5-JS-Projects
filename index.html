@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+
+    <title>Operations Project</title>
+  </head>
+  <body>
+    <h1 class="a">Project on Arithmetic Operations</h1>
+
+    <div>
+      <span for="l1">
+        <input type="number" id="l1" placeholder="input 1" />
+      </span>
+      <span for="l2">
+        <input type="number" id="l2" placeholder="input 2" />
+      </span>
+    </div>
+
+    <div>
+      <span>
+        <button type="button" id="l3" onclick="add()" value="+">
+          Addition
+        </button>
+
+        <button type="button" id="l4" onclick="sub()" value="-">
+          Subtraction
+        </button>
+
+        <button type="button" id="l5" onclick="mul()" value="*">
+          Multiplication
+        </button>
+
+        <button type="button" id="l6" onclick="div()" value="/">
+          Division
+        </button>
+      </span>
+    </div>
+
+    <div for="result">
+      <input type="text" id="result" placeholder="result" />
+    </div>
+  </body>
+</html>
